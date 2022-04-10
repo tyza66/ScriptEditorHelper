@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<title>剧本编辑器助手</title>
+<icon>icon.png</icon>
+<packageName>com.taoyuan.juben</packageName>
+<versionName>1.0</versionName>
+<versionint>1</versionint>
+<sdk>15</sdk>
+<yuv>3</yuv>
+<remark></remark>
+<Permissions>android.permission.REQUEST_INSTALL_PACKAGES
+android.permission.SYSTEM_ALERT_WINDOW
+android.permission.READ_EXTERNAL_STORAGE
+android.permission.WRITE_EXTERNAL_STORAGE</Permissions>
+<createTime>2020-07-15 13:09:48</createTime>
+<upTime>2020-07-15 13:09:48</upTime>

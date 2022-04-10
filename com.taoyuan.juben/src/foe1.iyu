@@ -1,0 +1,139 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#292C29</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=剧本编辑器助手
+textColor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="LinearLayout">
+<ppt>width=250dp
+height=500dp
+orientation=vertical
+gravity=center_horizontal
+BackgroundColor=#ffdadada</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="LinearLayout">
+<ppt>width=-1
+height=10dp
+orientation=vertical
+BackgroundColor=#ff8b8b8b</ppt>
+<event></event>
+</View>
+<View id="7" did="5" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="9" did="8" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="10" did="9" type="Button">
+<ppt>width=-1
+height=50dp
+text=我的工程</ppt>
+<event><eventItme type="clicki">uigo("wdgc.iyu")</eventItme></event>
+</View>
+<View id="11" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=剧本助手</ppt>
+<event><eventItme type="clicki">uigo("jbzs.iyu")</eventItme></event>
+</View>
+<View id="12" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=快速导入</ppt>
+<event></event>
+</View>
+<View id="13" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=素材获取</ppt>
+<event><eventItme type="clicki">uigo("schq.iyu")</eventItme></event>
+</View>
+<View id="14" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=高级备份</ppt>
+<event></event>
+</View>
+<View id="16" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=快捷功能</ppt>
+<event></event>
+</View>
+<View id="17" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=高级对话框(html)</ppt>
+<event></event>
+</View>
+<View id="18" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=启动剧本编辑器</ppt>
+<event><eventItme type="clicki">uapp("com.keefor.scripteditor",qi)
+f(qi == true)
+{
+  tw("启动成功")
+}
+else
+{
+  tw("启动失败")
+}</eventItme></event>
+</View>
+<View id="19" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=常见问题与反馈</ppt>
+<event><eventItme type="clicki">uigo("qr.iyu")</eventItme></event>
+</View>
+<View id="21" did="9" type="Button">
+<ppt>width=-1
+height=-2
+text=闪办网音频获取软件</ppt>
+<event></event>
+</View>
+<View id="20" did="0" type="SeekBar">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">s a = 99
+w(a &gt; 0)
+{
+us(a, "typeface", "@t1.ttf")
+s(a - 1, a)
+}
+uycl(true)
+ushsp(false)</eventItme></UIEventset>

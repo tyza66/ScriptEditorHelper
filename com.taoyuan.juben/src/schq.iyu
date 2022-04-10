@@ -1,0 +1,70 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#ffe2e2e2
+background=#292C29</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="3" type="ListView">
+<ppt>width=-1
+height=829dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">swh("h",h)
+sn(829/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(5,"height",dx)
+s a = 99
+w(a &gt; 0)
+{
+us(a, "typeface", "@t1.ttf")
+s(a - 1, a)
+}
+uycl(true)
+ushsp(false)
+
+tw("收录网站为网上获得，是否可以用于商用请详细查看网站内说明")
+tw("点击项目即可进入")
+tw("如部分有墙请自行解决")
+t()
+{
+  fdir(sd)
+  ss(sd+"/剧本编辑器助手/素材获取/素材.txt",sc)
+  fe(sc,zai)
+  f(zai == true)
+  {
+    fr(sc,nei)
+    sl(nei,";",fz)
+    for(mg;fz)
+    {
+      strim(mg,mg)
+      f(mg != null)
+      {
+    	  sj(mg,null,"(",mc)
+   	   sj(mg,"(",")",wz)
+          syso(wz)
+          f(mc != null && wz != null)
+          {
+     	 ula(biao3,4=mc,5=wz)
+          }
+      }
+    }
+    ufnsui()
+    {
+      uls(5,biao3,"biao3.iyu",-1,-2)
+    }
+  }
+}</eventItme></UIEventset>

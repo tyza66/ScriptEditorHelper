@@ -1,0 +1,10 @@
+<View id="1" did="0" type="Button">
+<ppt>width=60dp
+height=50dp
+text="/"
+typeface=@t1.ttf
+lines=1</ppt>
+<event><eventItme type="clicki">sxb("/")
+tw("已写入剪切板")</eventItme></event>
+</View>
+<UIEventset></UIEventset>

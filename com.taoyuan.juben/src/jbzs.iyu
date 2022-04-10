@@ -1,0 +1,315 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center_horizontal
+background=#292C29</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=-1
+height=300
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="31" did="2" type="LinearLayout">
+<ppt>width=-2
+height=100dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="32" did="31" type="ScrollView">
+<ppt>width=-2
+height=100dp</ppt>
+<event></event>
+</View>
+<View id="33" did="32" type="LinearLayout">
+<ppt>width=-2
+height=100dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=本功能用于对文本型剧本进行快速分解以应用于剧本编辑器内使用。规则如下：1.制作剧本时应使用符号” / “隔开每个分句。 2.本功能将自动将剧本内容按照分割转换为可快捷复制的单句。例：勇士:前方何人！/渔民：我是一个小小渔民在此路过。/勇士：给劳资死！！！！/渔民：啊这。。。
+textColor=#ffe4ff00</ppt>
+<event></event>
+</View>
+<View id="4" did="33" type="TextView">
+<ppt>width=-2
+height=-2
+text=快捷键的使用：当点击下方”快捷键“按钮时，将会在屏幕左上角显示一个快捷键悬浮窗，用以在其他文本编辑软件快速将” / “写入剪切板以制作适应本软件的文本剧本。（需要悬浮窗权限）如输入法更便捷推荐使用输入法
+textColor=#ffe4ff00
+</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="6" did="5" type="HorizontalScrollView">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="7" did="6" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="Button">
+<ppt>width=100dp
+height=50dp
+text=快捷键
+lines=1
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.v1 == null)
+{
+    f(sss.v2 != null)
+ {
+  uxf(sss.v2,"del")
+  sss v2 = null
+ }
+  uxf("kj1.iyu",0,0,100,80,0,"top|left",0,0,sss.v1)
+}
+else
+{
+}</eventItme></event>
+</View>
+<View id="9" did="7" type="Button">
+<ppt>width=100dp
+height=50dp
+text=关闭快捷键
+lines=1
+textSize=13sp</ppt>
+<event><eventItme type="clicki">f(sss.v1 != null)
+{
+  uxf(sss.v1,"del")
+  sss v1 = null
+}</eventItme></event>
+</View>
+<View id="11" did="7" type="Button">
+<ppt>width=100dp
+height=50dp
+text=导入剪切板
+lines=1
+textSize=13sp</ppt>
+<event><eventItme type="clicki">shb(juben)
+us(15,"text",juben)</eventItme></event>
+</View>
+<View id="12" did="7" type="Button">
+<ppt>width=100dp
+height=50dp
+text=快捷分割
+lines=1
+textSize=13sp</ppt>
+<event><eventItme type="clicki">//tw("正在分割")
+t()
+{
+	ug(15,"text",juben)
+	sl(juben,"/",sss.fenduan)
+	s hao =0
+	for(nei;sss.fenduan)
+	{
+	  s+(1,hao)
+      strim(nei,nei)
+	  ula(biao2,2=hao,3=nei)
+	}
+  ufnsui()
+  {
+	uls(23,biao2,"biao2.iyu",-1,-2)
+ f(sss.v2 != null)
+ {
+   gvs(sss.v2, kj2.3, n1)
+   us(n1,"text","0")
+   uxf(sss.v2)
+ }
+    tw("分割完成")
+  }
+}</eventItme></event>
+</View>
+<View id="13" did="1" type="LinearLayout">
+<ppt>width=-1
+height=150dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="14" did="13" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="15" did="14" type="TextView">
+<ppt>width=-2
+height=-2
+text=勇士:前方何人！/渔民：我是一个小小渔民在此路过。/勇士：给劳资死！！！！/渔民：啊这。
+textcolor=#ffffffff</ppt>
+<event></event>
+</View>
+<View id="16" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="17" did="16" type="LinearLayout">
+<ppt>width=-1
+height=5dp
+orientation=vertical
+background=#ffb9b9b9</ppt>
+<event></event>
+</View>
+<View id="18" did="16" type="LinearLayout">
+<ppt>width=-1
+height=400dp
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="19" did="18" type="ScrollView">
+<ppt>width=-1
+height=400dp</ppt>
+<event></event>
+</View>
+<View id="22" did="19" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="23" did="22" type="ListView">
+<ppt>width=-1
+height=400dp</ppt>
+<event></event>
+</View>
+<View id="21" did="16" type="LinearLayout">
+<ppt>width=-1
+height=5dp
+orientation=vertical
+background=#ffb9b9b9</ppt>
+<event></event>
+</View>
+<View id="25" did="16" type="LinearLayout">
+<ppt>width=-1
+height=20dp
+orientation=horizontal</ppt>
+<event></event>
+</View>
+<View id="26" did="25" type="HorizontalScrollView">
+<ppt>width=-2
+height=-2</ppt>
+<event></event>
+</View>
+<View id="27" did="26" type="TextView">
+<ppt>width=-1
+height=-1
+text=剧情器：本功能用于便捷输入已设计好的对话剧情等，请先获取好快速复制列表后使用。（需要悬浮窗权限）
+textColor=#ffffffff
+overScrollMode=never</ppt>
+<event></event>
+</View>
+<View id="28" did="16" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="29" did="28" type="Button">
+<ppt>width=-2
+height=-2
+text=启动剧情器</ppt>
+<event><eventItme type="clicki">f(sss.fenduan == null)
+{
+  tw("请先分割剧本")
+}
+else
+{
+  f(sss.v1 != null)
+ {
+  uxf(sss.v1,"del")
+  sss v1 = null
+ }
+ f(sss.v2 == null)
+ {
+   uxf("kj2.iyu",0,0,-2,-2,0,"top|left",0,0,sss.v2)
+ }
+}</eventItme></event>
+</View>
+<View id="30" did="28" type="Button">
+<ppt>width=-2
+height=-2
+text=关闭剧情器</ppt>
+<event><eventItme type="clicki">  f(sss.v2 != null)
+ {
+  uxf(sss.v2,"del")
+  sss v2 = null
+ }</eventItme></event>
+</View>
+<UIEventset><eventItme type="loading">swh("h",h)
+sn(100/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(8,"width",dx)
+sn(100/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(9,"width",dx)
+sn(100/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(11,"width",dx)
+sn(100/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(12,"width",dx)
+sn(150/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(13,"height",dx)
+sn(5/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(17,"height",dx)
+sn(400/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(18,"height",dx)
+sn(400/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(19,"height",dx)
+sn(400/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(23,"height",dx)
+sn(5/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(21,"height",dx)
+sn(20/829,dx)
+sn(h*dx,dx)
+ss(dx+"dp",dx)
+us(25,"height",dx)
+s a = 99
+w(a &gt; 0)
+{
+us(a, "typeface", "@t1.ttf")
+s(a - 1, a)
+}
+uycl(true)
+ushsp(false)</eventItme><eventItme type="destroy">f(sss.v1 != null)
+{
+  uxf(sss.v1,"del")
+  sss v1 = null
+}
+  f(sss.v2 != null)
+ {
+  uxf(sss.v2,"del")
+  sss v2 = null
+ }</eventItme></UIEventset>

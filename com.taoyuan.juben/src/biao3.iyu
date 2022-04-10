@@ -1,0 +1,38 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=vertical
+background=#ffd4d4d4</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+gravity=center</ppt>
+<event><eventItme type="clicki">ulag(st_vW,5,sss.wang)
+hws(sss.wang)</eventItme></event>
+</View>
+<View id="4" did="3" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本4
+textSize=20dp
+textColor=#ff6a00ff
+typeface=@t1.ttf
+</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本5
+visibility=gone</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

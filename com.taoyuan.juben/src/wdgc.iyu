@@ -1,0 +1,91 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+BackgroundColor=#ffe2e2e2
+background=#292C29</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="7" did="2" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="8" did="7" type="ListView">
+<ppt>width=-1
+height=829dp</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">tw("正在获取文件列表")
+t(){
+	fdir(sd)
+    ss(sd+"/ScriptEditor",juben)
+    fe(juben,shi)
+    ufnsui()
+    {
+      f(shi != true)
+      {
+        tw("未找到剧本编辑器")
+      end()
+      break
+      }
+    }
+    ss(juben+"/.sys/plc",jubiao)
+    fe(jubiao,yi1)
+    ufnsui()
+    {
+      f(yi1 != true)
+      {
+        tw("未创建工程")
+        end()
+        break
+    }
+    }
+    f(yi1 == true)
+    {
+      fr(jubiao,"utf-8",nei)
+      json(nei,jnei)
+      json(jnei,"list","list",list1)
+      json(list1,"size",size)
+      w(size &gt; 0)
+      {
+        s-(1,size)
+        json(list1,"data",size,item)
+        json(item,"get","Name",mz)
+        json(item,"get","Path",lj)
+        json(item,"get","Create",cjsj)
+        json(item,"get","Timer",js)
+        strim(mz,mz)
+        strim(lj,lj)
+        ss("创建时间:"+cjsj,cjsj)
+        ss("编辑时长:"+js,js)
+        fe(lj,w2)
+        //syso(w2)
+          f(w2 == true)
+          {
+            sbp(lj+"/icon/icon.png",tubiao)
+            ula(xmlb,5=mz,6=lj,7=cjsj,8=js,3=tubiao)
+          }
+      }
+      ufnsui()
+      {
+      uls(8,xmlb,"biao1.iyu",-1,-2)
+      }
+     }
+    
+}
+s a = 99
+w(a &gt; 0)
+{
+us(a, "typeface", "@t1.ttf")
+s(a - 1, a)
+}
+uycl(true)
+ushsp(false)
+</eventItme></UIEventset>

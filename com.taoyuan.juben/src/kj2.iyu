@@ -1,0 +1,125 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=180dp
+height=60dp
+orientation=horizontal
+background=#292C29</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=60dp
+height=60dp
+orientation=vertical
+gravity=center
+</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=0
+textColor=#ff00fff3
+typeface=@t1.ttf
+textSize=32sp
+lines=1</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="LinearLayout">
+<ppt>width=40dp
+height=60dp
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="8" did="5" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301542</ppt>
+<event><eventItme type="clicki">gvs(sss.v2, kj2.3, n1)
+ug(n1,"text",n2)
+f(n2 == 0 || n2 == 1 )
+{
+  tw("没有前一项了")
+}
+else
+{
+  s-(2,n2)
+  sgsz(sss.fenduan,n2,neirong)
+  sxb(neirong)
+  s+(1,n2)
+  ss("已复制:("+n2+")"+neirong,ji)
+  tw(ji)
+  us(n1,"text",n2)
+  uxf(sss.v2)
+}
+</eventItme></event>
+</View>
+<View id="6" did="4" type="LinearLayout">
+<ppt>width=40dp
+height=60dp
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="10" did="6" type="Button">
+<ppt>width=-2
+height=-2
+text=复制
+lines=1
+textStyle=10sp
+textColor=#ffff1d00
+background=through
+typeface=@t1.ttf</ppt>
+<event><eventItme type="clicki">gvs(sss.v2, kj2.3, n1)
+ug(n1,"text",n2)
+f(n2 != 0)
+{
+  s-(1,n2)
+  sgsz(sss.fenduan,n2,neirong)
+  sxb(neirong)
+  s+(1,n2)
+  ss("已复制:("+n2+")"+neirong,ji)
+  tw(ji)
+}
+else
+{
+  tw("0项不存在")
+}</eventItme></event>
+</View>
+<View id="7" did="4" type="LinearLayout">
+<ppt>width=40dp
+height=60dp
+orientation=horizontal
+gravity=center</ppt>
+<event></event>
+</View>
+<View id="9" did="7" type="ImageView">
+<ppt>width=-2
+height=-2
+src=17301537</ppt>
+<event><eventItme type="clicki">sgszl(sss.fenduan,chang)
+syso(chang)
+gvs(sss.v2, kj2.3, n1)
+ug(n1,"text",n2)
+f(n2 &lt; chang)
+{
+  sgsz(sss.fenduan,n2,neirong)
+  sxb(neirong)
+  s+(1,n2)
+  ss("已复制:("+n2+")"+neirong,ji)
+  tw(ji)
+  us(n1,"text",n2)
+  uxf(sss.v2)
+}
+else
+{
+  tw("没有下一项了")
+}</eventItme></event>
+</View>
+<UIEventset></UIEventset>

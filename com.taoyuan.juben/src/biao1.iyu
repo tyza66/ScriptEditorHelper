@@ -1,0 +1,66 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=100
+orientation=horizontal
+background=#ffbababa</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="LinearLayout">
+<ppt>width=100
+height=100
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=-1
+height=-1
+src=17301567</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="5" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=xmmc
+textColor=#ffffbe00
+textSize=20sp
+typeface=@t1.ttf
+lines=1</ppt>
+<event></event>
+</View>
+<View id="6" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本6
+typeface=@t1.ttf
+lines=1</ppt>
+<event></event>
+</View>
+<View id="7" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本7
+layout_margintop=7dp
+layout_marginleft=7dp
+typeface=@t1.ttf
+lines=1
+textSize=12dp</ppt>
+<event></event>
+</View>
+<View id="8" did="4" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本8
+layout_margintop=-13dp
+layout_marginleft=165dp
+typeface=@t1.ttf
+lines=1
+textSize=12dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

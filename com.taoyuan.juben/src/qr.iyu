@@ -1,0 +1,91 @@
+<View id="12" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#292C29</ppt>
+<event></event>
+</View>
+<View id="13" did="12" type="ScrollView">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="1" did="13" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical
+background=#292C29
+gravity=center_horizontal</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=关于本软件
+textColor=#ffffffff
+textSize=30dp</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=剧本编辑器：古阳
+textColor=#ff9fff00</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=本软件作者：洮羱芝闇 测试：值日生
+textColor=#ff9fff00</ppt>
+<event></event>
+</View>
+<View id="5" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=官方群：472403351
+textColor=#ff9fff00</ppt>
+<event></event>
+</View>
+<View id="6" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=版本：1.0
+textColor=#ff9fff00</ppt>
+<event></event>
+</View>
+<View id="7" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=2020.7.16
+textColor=#ff9fff00</ppt>
+<event></event>
+</View>
+<View id="8" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=感谢支持本软件 欢迎投喂 投喂名单将在下一个版本出现
+textColor=#ff9fff00</ppt>
+<event></event>
+</View>
+<View id="9" did="1" type="ImageView">
+<ppt>width=-2
+height=-2
+src=@mm_facetoface_collect_qrcode_1592356005854.png</ppt>
+<event></event>
+</View>
+<View id="11" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=反馈问题请前往官方群（戏精）或发送邮件到1520600496@qq.com
+textColor=#ff9fff00</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">s a = 99
+w(a &gt; 0)
+{
+us(a, "typeface", "@t1.ttf")
+s(a - 1, a)
+}
+uycl(true)
+ushsp(false)</eventItme></UIEventset>

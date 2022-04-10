@@ -1,0 +1,43 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=50dp
+orientation=horizontal
+gravity=center_vertical
+background=#ffd1d1d1</ppt>
+<event><eventItme type="clicki">ulag(st_vW,3,sss.nr)
+sxb(sss.nr)
+tw("复制成功")</eventItme></event>
+</View>
+<View id="2" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=123
+textColor=#ff00fff3
+typeface=@t1.ttf
+textSize=32sp
+</ppt>
+<event></event>
+</View>
+<View id="3" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=文本
+textColor=#ffffffff
+layout_margintop=-9dp
+layout_marginleft=1dp
+typeface=@t1.ttf
+lines=1</ppt>
+<event></event>
+</View>
+<View id="4" did="1" type="TextView">
+<ppt>width=-2
+height=-2
+text=点击复制
+layout_margintop=15dp
+layout_marginleft=-38dp
+typeface=@t1.ttf
+lines=1
+textSize=15dp</ppt>
+<event></event>
+</View>
+<UIEventset></UIEventset>

@@ -1,0 +1,51 @@
+<View id="1" did="0" type="LinearLayout">
+<ppt>width=-1
+height=-1
+orientation=vertical</ppt>
+<event></event>
+</View>
+<View id="2" did="1" type="RelativeLayout">
+<ppt>width=-1
+height=-1</ppt>
+<event></event>
+</View>
+<View id="3" did="2" type="ImageView">
+<ppt>width=-1
+height=-1
+src=@EE1.png</ppt>
+<event></event>
+</View>
+<View id="4" did="2" type="GifView">
+<ppt>width=250dp
+height=250dp
+src=@1441607117423593.gif
+layout_margintop=163dp
+layout_marginleft=186dp</ppt>
+<event></event>
+</View>
+<View id="5" did="2" type="TextView">
+<ppt>width=-2
+height=-2
+text=本软件为辅助游戏开发软件 当前版本1.0</ppt>
+<event></event>
+</View>
+<UIEventset><eventItme type="loading">swh("h",gao)
+swh("w",kuan)
+//tw("屏幕宽高："+gao+","+kuan)
+//获取屏幕宽高
+t(){
+  fdir(sd)
+  ss(sd+"/剧本编辑器助手",ju)
+  fe(ju,zai)
+  f(zai == false)
+  {
+   fuzs("@data.zip", "%剧本编辑器助手", jie)
+  }
+  stop(2000)
+  //syso(jie)
+  uigo("foe1.iyu")
+  end()
+}
+uycl(true)
+ushsp(false)
+</eventItme></UIEventset>
