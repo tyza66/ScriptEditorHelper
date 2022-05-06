@@ -12,4 +12,7 @@ iApp裕3项目
 7.高级对话框：根据剧本编辑器文本框特性，快捷生成html代码，提供颜色参考表等。  
 8.启动剧本编辑器：一键快捷跳转到剧本编辑器。  
 [2020.7.16]测试版1  
+
+成品：https://github.com/tyza66/WorkCollection/tree/main/%E5%89%A7%E6%9C%AC%E7%BC%96%E8%BE%91%E5%99%A8%E5%8A%A9%E6%89%8B%5BAndroid%5D%5B%E5%8E%9F%E5%88%9B%E8%BD%AF%E4%BB%B6%5D%5B%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E%E8%BE%85%E5%8A%A9%E8%BD%AF%E4%BB%B6%5D
+
 By:tyza66(洮羱芝闇)
